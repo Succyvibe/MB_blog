@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+@font-face {
+    font-family: "Avenir Next";
+    src: url("../fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+    }
+
+
+:root{
+    --primary-color:#0A083B;
+    --para-color:#57586E;
+    --gradient-warning: linear-gradient(180deg, #EDAC3D 8.09%, #F0C419 69.16%);
+    --gradient-skyblue: linear-gradient(180deg, #3B43F2 8.09%, #2178FF 69.16%);
+    --gradient-sea-blue:linear-gradient(180deg, #18AACD 8.09%, #19E3F0 69.16%);
+    --gradient-pink:linear-gradient(180deg, #F22452 37.71%, #FF5364 60.98%);
+    --gradient-purple:linear-gradient(180deg, #8214FC 8.09%, #9E6CFF 69.16%);
+    --gradient-dark-blue:linear-gradient(181.08deg, #001ED3 47.89%, #247BDE 106.65%);
+    --skyblue:#3B43F2;
+    --sea-blue:#18AACD;
+    --pink:#F22452;
+    --warning:#EDAC3D;
+    --dark-blue:#011ED3;
+    --purple:#8214FC;
+    --card-radius:15px;
+}
+
+body{
+    font-family: 'Avenir Next', 'inter', sans-serif;
+    background: rgb(241, 241, 241);
+    overflow-x: hidden;
+   
+    
+   
+}
+
+h1{
+    color:#0A083B ;
+}
+
+p{
+    color: #57586E;
+    font-size: 1.5rem;
+
+}
+
+/*---- Navbar Section------- */
+.navbar .navbar-nav .nav-item a{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .active a{
+    background-color:#0A083B;
+    -webkit-background-clip:text;
+    background-clip: text;
+    background: text;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    color: #0A083B;
+}
+
+
+.nav-link{
+    color:#57586E;
+    font-size: .8rem;
+}
+
+.btn-warning{
+    background-color: #1C168C;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    
+    
+}
+
+.btn-warning:hover{
+    background-color:#1c168cbd ;
+    color: #fff;
+    border: none;
+    
+}
+
+/* ---------------End Navbar----------------------------- */
+
+/* -----------------Header Section---------------------------------- */
+
+.header{
+    background: var(--warning);
+}
+
+.header__title-text{
+    font-size: 50px;
+    font-weight: 400;
+}
+/* -----------------End Header Section---------------------------------- */
+
+/*-------------------------main Section-------------------------------------*/
+main{
+    margin-bottom: 100px;
+}
+
+.main__text{
+    color: var(--warning);
+    font-weight: 400;
+}
+
+.main__sub-text{
+    color: #B4B4B4;
+}
+
+.Resources__title-text{
+    color: var(--warning);
+}
+
+.Resources__sub-text{
+    color: var(--warning);
+}
+
+.right__title-text{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:var(--primary-color);
+}
+
+.right__title-sub-text{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.right-col p{
+    font-size: .9rem;
+    color:var(--para-color);
+}
+
+/*-------------------------End main Section-------------------------------------*/
+
+/* ------------------------ Start Slides Section------------------------------------------ */
+
+
+.slides{
+    background-color: var(--warning);
+    margin-bottom: 50px;
+}
+
+.slides .row h4,
+.slides .row p{
+    color: #fff;
+
+}
+
+
+
+
+
+.topic__title--text{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.bg-pink{
+    background-color: var(--pink);
+}
+
+.bg-pur{
+    background-color: var(--purple);
+}
+
+.bg-sea-blue{
+    background-color: var(--sea-blue)
+}
+
+
+.card p{
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+    
+
+
+/* ------------------------ End slides Section------------------------------------------ */
+
+
+
+
+
+
+
+/* ----------------------------Footer Section--------------------------------------------------------------- */
+
+
+footer{
+    background: #17154B;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: .6rem;
+    font-weight: normal;
+}
+
+footer ul{
+   list-style-type: none;
+   padding-left: 0;
+   color: #FFFFFFCC;
+
+}
+
+
+
+footer .email{
+    color: #fff;
+    opacity: 70%;
+}
+
+footer .footer-nav:nth-of-type(2){
+    margin-left: 20px;
+}
+
+
+.text-col p{
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+
+footer .socia-link{
+    
+    border: 1px solid #E5E5E5;
+    border-radius: 50%;
+}
+
+footer .socia-link img{
+    width:  12px;
+    height: 12px;
+    color: #fff;
+    opacity: 90%;
+}
+
+footer .socia-link .face{
+    width: 11px;
+    height: 11px;
+    font-weight: 300;
+}
+footer .text-light{
+    font-size: .7rem;
+}
+
+footer small{
+    color: #fff;
+    opacity: 70%;
+}
+/* ---------------------------- End Footer Section--------------------------------------------------------------- */
