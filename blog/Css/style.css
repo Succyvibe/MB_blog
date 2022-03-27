@@ -38,14 +38,6 @@ body{
     text-decoration: none;
 }
 
-input{
-  
-}
-
-.input-group:focus{
-     outline: none;
-     border:1px solid red;
-}
 
 
 .title_header{

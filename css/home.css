@@ -26,6 +26,15 @@ body{
     overflow-x: hidden;
 }
 
+.link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.link:hover{
+    color:#15117a ;
+}
+
 
 
 h1{
@@ -41,6 +50,19 @@ p{
 .navbar .navbar-nav .nav-item a{
     font-size: 1rem;
     font-weight: 500;
+}
+
+.navbar .nav-item::after{
+    content: '';
+    width: 0;
+    height: 4px;
+    display: block;
+    background-color: var(--primary-color);
+    transition: all .3s ease;
+}
+
+.navbar .nav-item:hover::after{
+    width: 100%;
 }
 
 .navbar .navbar-nav .active a{
@@ -86,16 +108,11 @@ p{
     margin-top: 10%;
 }
 
-.bg-white{
-    width:35%;
-    border-radius: 5px;
+.text-danger{
+    color: var(--danger);
+    font-size: 1.2rem;
 }
 
-.title__text-top{
-    color: var(--danger);
-    font-size: 1rem;
-   
-}
 .title__text {
     font-weight: 800;
     font-size: 40px;
@@ -111,20 +128,38 @@ p{
     
 }
 
+.input-box{
+    border-radius:8px;
+}
 
 
-.btn-outline-secondary{
+
+.start-btn{
     background:#191489;
     color: #fff;
+    border: none;
+    border-radius:8px;
+    transition: all .3s ease;
 
 }
 
-.form-control{
+.start-btn:hover{
+    background-color:#2119ad ;
+}
+
+.email-input{
     color: #5D5A6F;
     opacity: 60%;
     font-size: .8rem;
+    border: none;
+    background-color: transparent;
     
     
+}
+
+.email-input:focus{
+    border: none;
+    outline: none;
 }
 
 .hero__image{
@@ -203,6 +238,7 @@ z-index: -1;
 }
 
 
+
 /*----------------Dev article section----------------------*/
 /*----------------Dev article section----------------------*/
 
@@ -261,7 +297,7 @@ small{
     color: #57586E;
     font-size: .9rem;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .card-text{
@@ -321,18 +357,19 @@ z-index: -1;
 
 
 
-.col-md .btn-primary{
-    background-color: #9C4DF4;
+ .btn-purp{
+    background-color:var(--purple);
     font-size: .8rem;
     border: none;
+    color: white;
 }
 
-.col-md .card-head-text{
+ .card-head-text{
     color: #0A083B;
     font-weight: 700;
 }
 
-.col-md .art-card-text{
+ .art-card-text{
     font-size: 1.2rem;
     color: #5D5A6F;
 }
