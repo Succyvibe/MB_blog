@@ -33,6 +33,32 @@ body{
 }
 
 
+
+.link{
+    text-decoration: none;
+}
+
+input{
+  
+}
+
+.input-group:focus{
+     outline: none;
+     border:1px solid red;
+}
+
+
+.title_header{
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: .3s ease all;
+}
+
+.title_header:hover{
+    color:#14107c;
+}
+
+
 h1{
     color:#0A083B ;
 }
@@ -189,11 +215,12 @@ small{
 .btn-primaryy{
     background-color:#1C168C;
     color: #fff;
+    transition: all .3s ease;
 }
 
 
 .btn-primaryy:hover{
-    background-color:#1c168cda;
+    background-color:#100c5cda;
     color:#fff;
 }
 
@@ -352,9 +379,11 @@ footer small{
     opacity: 70%;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:576px){
 
-  
+  .pattern{
+      display:none;
+  }
 
 
 
@@ -374,6 +403,10 @@ footer small{
 
 
 @media screen and (max-width:768px){
+
+    .pattern{
+        display:none;
+    }
   footer .footer-nav:nth-of-type(2){
         margin-left:0;
     }  
