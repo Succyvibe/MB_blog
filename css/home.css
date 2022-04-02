@@ -110,7 +110,7 @@ p{
 
 .text-danger{
     color: var(--danger);
-    font-size: 1.2rem;
+    
 }
 
 .title__text {
@@ -197,16 +197,15 @@ p{
     display: none;
 }
 
-.bg{
-    position: absolute;
-    top: 0;
-    left: 230px;
-z-index: -1;
-}
 
-.hero__image .bg-img img{
+
+.bg{
     width: 400px;
-    display: none;
+    position: absolute;
+    
+    top: 0;
+    left:35%;
+    z-index: -1;
 }
 
 /* ----------------End Hero Section--------------------------------------- */
@@ -577,8 +576,99 @@ footer small{
     opacity: 70%;
 }
 
- @media screen and (max-width:568px){
 
+@media (max-width:1400px){
+    body{
+        background-color:rgb(8, 18, 22);
+    }
+.bg-img{
+   
+    
+}
+
+.bg{
+    position: absolute;
+    
+    top: -15%;
+    left:20%;
+    z-index: -1;
+}
+
+
+
+@media (max-width:1200px){
+    body{
+        background-color:rgb(94, 138, 103);
+    }
+
+
+.bg{
+    position: absolute;
+    top: -18%;
+    left:10%;
+    z-index: -1;
+}
+
+
+
+
+@media (max-width:992px){
+    body{
+        background-color:skyblue;
+    }
+
+.bg{
+    position: absolute;
+    
+    top: -5%;
+    left:20%;
+    z-index: -1; 
+    width: 500px;
+}
+
+
+
+}
+
+@media (max-width:768px){
+    body{
+        background-color: blue;
+    }
+    
+
+.bg{
+    position: absolute;
+    
+    top: -15%;
+    left:18%;
+    z-index: -1;
+    
+    
+}
+
+}
+
+ @media screen and (max-width:576px){
+    body{
+        background-color:gray;
+    }
+
+       
+.bg-img{
+  
+}
+
+.bg{
+    position: absolute;
+    
+    top: -25%;
+    left:4%;
+    z-index: -1;
+    
+}
+
+    
+    
   
     .hero__image 
     .position-img img{
@@ -589,20 +679,7 @@ footer small{
 
 .showcase-img .bg-img{
     z-index: 2;
-}
-
-
-.hero__image .bg-img img{
-    width: 280px;
     display: none;
-}
-
-
-.bg{
-    position: absolute;
-    top: 45%;
-    left:50%;
-    transform: translate(-50%, -50%);
 }
 
 .hero__image 
@@ -653,6 +730,63 @@ footer small{
     height: 100px;
     display: none;
 }
+
+@media (max-width:425px){
+       body{
+           background-color: chartreuse;
+       }
+
+
+.bg{
+    position: absolute;
+    
+    top: -30%;
+    left:13%;
+    z-index: -1;
+    width: 350px;
+    
+     
+}
+}
+
+
+@media (max-width:375px){
+    body{
+        background-color: rgb(0, 255, 149);
+    }
+.bg-img{
+
+}
+
+.bg{
+    position: absolute;
+ 
+    top: -35%;
+    left:3%;
+    z-index: -1;
+    width: 300px;
+    
+}
+}
+
+
+@media (max-width:320px){
+    body{
+        background-color: rgb(0, 255, 170);
+    }
+
+.bg{
+    position: absolute;
+ width: 300px;
+    top: -35%;
+    left:3%;
+    z-index: -1;
+    display: none;
+}
+}
+
+
+
 /*----------------------Footer---------------------------- */
 footer .footer-nav:nth-of-type(2){
     margin-left:0;
@@ -663,11 +797,4 @@ footer .footer-nav:nth-of-type(2){
     font-weight:700;
 }
 
-
-
-
-.bg-update{
-    padding: 150px 0;
-    max-width: 400px;
-}
  }

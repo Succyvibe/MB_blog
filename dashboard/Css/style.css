@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+
+@font-face {
+    font-family: "Avenir Next";
+    src: url("../fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+
+:root {
+    --background-color: rgb(241, 241, 241);
+    --primary-color: #0A083B;
+    --para-color: #57586E;
+    --text-muted: #57586E;
+    --gradient-warning: linear-gradient(180deg, #EDAC3D 8.09%, #F0C419 69.16%);
+    --gradient-skyblue: linear-gradient(180deg, #3B43F2 8.09%, #2178FF 69.16%);
+    --gradient-sea-blue: linear-gradient(180deg, #18AACD 8.09%, #19E3F0 69.16%);
+    --gradient-pink: linear-gradient(180deg, #F22452 37.71%, #FF5364 60.98%);
+    --gradient-purple: linear-gradient(180deg, #8214FC 8.09%, #9E6CFF 69.16%);
+    --gradient-dark-blue: linear-gradient(181.08deg, #001ED3 47.89%, #247BDE 106.65%);
+    --skyblue: #3B43F2;
+    --sea-blue: #18AACD;
+    --pink: #F22452;
+    --warning: #EDAC3D;
+    --dark-blue: #011ED3;
+    --purple: #8214FC;
+    --card-radius: 15px;
+    --offcanvas-width: 270px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+}
+
+html {
+    /* font-size: 14px; */
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Avenir Next', 'inter', sans-serif;
+    background: var(--background-color);
+    /* font-size: 0.88rem; */
+
+
+}
+
+a {
+    color: var(--primary-color);
+}
+
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 0.87rem;
+}
+
+h4 {
+    font-size: .8rem;
+}
+
+h5 {
+    font-size: .77rem;
+}
+
+
+/* Navigation */
+
+.logo {
+    width: 200px;
+
+}
+
+.navbar {
+    background-color: #fff;
+
+}
+
+.nav-header-text {
+    color: #374557;
+    font-size: 1.3rem;
+}
+
+
+
+
+.navbar-nav .nav-link .inbox-img {
+    width: 20px;
+}
+
+
+.navbar-nav .nav-link .user-img {
+    width: 20px;
+}
+
+/* ENd Navigation */
+
+.form-box {
+    background-color: #FAFAFA;
+    border-radius: 20px;
+}
+
+.form-box input {
+    border: none;
+    background: transparent;
+}
+
+.form-control::placeholder {
+    font-size: .7rem;
+}
+
+.form-box button img {
+    width: 15px;
+}
+
+.nav-item .nav-link span .font-size {
+    color: #393649;
+    font-size: .8rem;
+}
+
+.nav-item .nav-link span .us-img {
+    width: 20px;
+}
+
+
+/* main */
+
+main {}
+
+/* main */
+
+/* ------------------Aside--------------------------- */
+.aside {
+    background: #fff;
+
+}
+
+.aside-card .medal-img {
+    width: 25px;
+}
+
+.aside-nav {
+    margin-top: 40px;
+}
+
+.aside-nav .navbar-nav .nav-link span img {
+    width: 20px;
+}
+
+.text-gray {
+    font-size: .8rem;
+    color: #7282A0;
+}
+
+.navbar-nav li .active {
+    background: #191489;
+    color: #fff;
+    box-shadow: 0px 5px 20px rgba(55, 69, 87, 0.1);
+    border-radius: 10px;
+
+}
+
+.navbar-nav li .active .text-gray {
+    color: #fff;
+}
+
+.navbar-nav li {
+    margin-top: 10px;
+}
+
+.navbar-nav li a img {
+    width: 30px;
+}
+
+.navbar-nav li .sidebar-link span .vector-img {
+    width: 10px;
+}
+
+.aside-card {
+    background: white;
+    color: #7282A0;
+    box-shadow: 0px 20px 50px rgba(55, 69, 87, 0.1);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.aside-card-header-text {
+    font-weight: bold;
+    color: #374557;
+}
+
+.aside-card-lead {
+    font-size: .7rem;
+    color: #7282A0;
+}
+
+.btn-upgrade {
+    background: #191489;
+    color: #fff;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+/* offcanvas */
+
+/* middle column */
+
+.card-bg-purple {
+    background: #9C4DF4;
+    border-radius: 16px;
+
+
+
+
+}
+
+.card-bg-dark-blue {
+    background: #191489;
+    border-radius: 16px;
+    color: #fff;
+    background-image: url('./..//img/Schedule-light.svg'), url('./..//img/book-light.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 30px right 200px, top 30px left 100px;
+
+}
+
+.card-header-text {
+    font-size: 1.3rem;
+    line-height: 1.7;
+}
+
+.card-lead {
+    font-size: .8rem;
+}
+
+.check-box {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.box .check-box img {
+    width: 18px;
+}
+
+.box {
+    background: #191489;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.box-1 {
+    background: #9C4DF4;
+}
+
+.box-2 {
+    background: #374557;
+}
+
+.card-text-mute {
+    font-size: .8rem;
+}
+
+.chartbox {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.chartbox h1 {
+    color: #374557;
+    font-weight: bold;
+    font-size: ;
+}
+
+.small-ellipse-img {
+    width: 10px;
+}
+
+.chartbox span {
+    font-size: .6rem;
+    color: #A098AE;
+}
+
+/* ---------------Progress bar */
+.progress-card {
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    z-index: -1;
+}
+
+.progress {}
+
+.progress-img {
+    width: 100px;
+}
+
+.progress-value {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.progress-bg {
+    width: 53px;
+    position: absolute;
+    top: 13%;
+    left: 33%;
+    z-index: 1;
+}
+
+.progress-value p {
+    color: #374557;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.progress-status {
+    font-weight: bold;
+    font-size: .75rem;
+}
+
+.progress-lead {
+    font-size: .6rem;
+}
+
+.btn-font {
+    font-size: .6rem;
+}
+
+/* ---------------Progress bar *
+/* middle column */
+
+/* -----------------------Right-sidebar */
+
+.home-work-card {
+    border-radius: 5px;
+}
+
+.line {
+    height: 10px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+}
+
+.line-1 {
+    height: 9px;
+    width: 50%;
+    background-color: #9C4DF4;
+
+}
+
+.line-2 {
+    background-color: #191489;
+}
+
+.event-lead {
+    font-size: .7rem;
+}
+
+
+.add-img {
+    width: 100px;
+}
+
+/* designCards */
+.designCards {
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 9px;
+    background-color: #374557;
+    border-radius: 5px 0 0 5px;
+}
+
+.layer1 {
+    background-color: #191489;
+}
+
+.layer2 {
+    background-color: #9C4DF4;
+}
+
+
+.designCards_header-text {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.designCards_img {
+    width: 20px;
+}
+
+.designCards_date {
+    font-size: .7rem;
+}
+
+.schedule-btn {
+    text-decoration: none;
+}
+
+.btn-box {
+    border: 1px solid #A098AE;
+    border-radius: 8px;
+}
+
+/* designCards */
+
+/* -----------------------Right-sidebar */
