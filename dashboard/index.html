@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./Css/bootstrap.min.css">
     <link rel="stylesheet" href="./Css/boxicons.min.css">
     <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <div class="container-fluid">
             <!-- OffCanvas Trigger -->
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvasExample"
                 aria-controls="offcanvasExample">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -108,7 +109,7 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col col-lg-2 aside">
+                <div class="col col-lg-2  collapse" id="offcanvasExample">
                     <div class="">
                         <nav class="aside-nav">
                             <ul class="navbar-nav">
@@ -263,23 +264,39 @@
                     <div class="row  mx-lg-1">
                         <div class="col-lg-9 ">
                             <div class="row bg-white rounded  mt-3 mx-1">
+                                <div class="d-flex d-md-flex justify-content-between mt-4">
+                                    <h2 class="fw-bold fs-6">Learning Activity</h2>
+                                    <div class="d-flex d-md-flex ms-5 ps-lg-5">
+                                        <h5 class="me-3">
+                                            <span"><img src="./img/small-ellipse.png" alt=""></span>
+                                                <span>Last Week</span>
+                                        </h5>
+                                        <h5>
+                                            <span"><img src="./img/small-ellipse.png" alt=""></span>
+                                                <span>Last Week</span>
+                                        </h5>
+                                    </div>
+                                    <h2><img src="./img/dots.png" alt=""></h2>
+                                </div>
                                 <div class="col-lg-12">
-                                    <img src="./img/chart11.png" class="img-fluid" alt="">
+                                    <img src="./img/chart.png" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 mt-3">
                             <div class="progress-card text-center ms-lg-3">
 
-                                <div class="pt-3">
+                                <div class="pt-3 mb-3">
                                     <img src="./img/Ring1.png" class="progress-img" alt="" srcset="">
                                 </div>
                                 <div class="progress-value">
                                     <p class="c">75%</p>
                                 </div>
 
-                                <h5 class="progress-status mt-3">My Progress</h5>
-                                <p class="progress-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                <h5 class="progress-status mt-lg-4 mb-lg-4 fs-4">My Progress</h5>
+                                <p class="progress-lead mb-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit,
+                                    sed
                                     do.</p>
                                 <div>
                                     <a href="" class="btn btn-upgrade mb-4 btn-font">More details</a>
@@ -290,7 +307,25 @@
                     </div>
 
                     <div class="row  mx-lg-1">
-                        <div class="col-lg-12 mt-3">
+                        <!-- <div class="d-flex d-md-flex justify-content-between align-items-center">
+                            <h2>Learning Activity</h2>
+                            <p>
+                                <span><img src="./img/small-ellipse.png" alt=""></span>
+                                <span>Last Week</span>
+                            </p>
+                            <p>
+                                <span><img src="./img/small-ellipse.png" alt=""></span>
+                                <span>This Month</span>
+                            </p>
+                            <p data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <span class=" text-gray">This Year</span>
+                                <span class="right-icon ms-4"><img class="vector-img" src="./img/Vector.png" alt=""
+                                        srcset=""></span>
+                            </p>
+                        </div>
+                        <h2><img src="./img/dots.png" alt=""></h2> -->
+                        <div class="col-lg-12 mt-3 mb-4">
                             <img src="./img/graph.png" class="img-fluid" alt="">
 
                         </div>
@@ -358,7 +393,7 @@
 
                     <!-- ------------------------DesignCard-1------------------------------------- -->
 
-                    <div class="col-md-12 my-3   home-work-card  pt-3 pb-2  px-3 designCards ">
+                    <div class="col-md-12 mt-lg-3 mb-4  home-work-card  pt-3 pb-2  px-3 designCards ">
                         <h5 class="designCards_header-text">Web Design</h5>
                         <div class="d-flex d-md-flex justify-content-between">
                             <div>
@@ -386,7 +421,7 @@
 
 
                     <!-- ------------------------End--DesignCard1------------------------------------------- -->
-                    <div class="col-md-12 bg-white   home-work-card  pt-3 pb-2 px-3 my-3 designCards">
+                    <div class="col-md-12 bg-white   home-work-card  pt-3 pb-2 px-3 mt-lg-3 mb-4 designCards">
                         <h5 class="designCards_header-text">Web Design</h5>
                         <div class="d-flex d-md-flex justify-content-between">
                             <div>
@@ -411,7 +446,7 @@
                         <div class="layer layer1"></div>
                     </div>
                     <!-- --------------------------DesignCard2----------------------------------- -->
-                    <div class="col-md-12 bg-white  my-3  home-work-card  pt-3 pb-2 px-3 designCards">
+                    <div class="col-md-12 bg-white  my-3 mb-lg-4  home-work-card  pt-3 pb-2 px-3 designCards">
                         <h5 class="designCards_header-text">Web Design</h5>
                         <div class="d-flex d-md-flex justify-content-between">
                             <div>
