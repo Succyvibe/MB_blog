@@ -158,6 +158,10 @@ h5 {
 /* End sidebar */
 
 /* -------------------------main section---------------------------------------------- */
+.main-navbar {
+    width:
+}
+
 .wrapper {
     max-width: 1200px;
     margin: auto;
@@ -214,241 +218,50 @@ h5 {
 /* ------------------------main Content----------------------------- */
 .main {
     background: var(--background-color);
+    width: 100%;
 }
 
 /* --------------middle column---------- */
 
-.card-bg-purple {
-    background: #9C4DF4;
-    border-radius: 16px;
-
-
-
-
-}
-
-.card-bg-dark-blue {
-    background: #191489;
-    border-radius: 16px;
-    color: #fff;
-    background-image: url('./..//img/Schedule-light.svg'), url('./..//img/book-light.svg');
-    background-repeat: no-repeat, no-repeat;
-    background-position: top 30px right 200px, top 30px left 100px;
-
-}
-
-.card-header-text {
-    font-size: 1.3rem;
-    line-height: 1.7;
-}
-
-.card-lead {
-    font-size: .8rem;
-}
-
-.check-box {
+.card1 {
     background-color: #fff;
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-}
+    padding: 16px;
 
-
-/* ----------------------card2--------- */
-
-.box {
-    background: #191489;
-    color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-
-}
-
-.box-1 {
-    background: #9C4DF4;
-}
-
-.box-2 {
-    background: #374557;
-}
-
-/* -----------progress box------------------- */
-
-/* -----------graphbox-------------------- */
-.graph-box {
-    background-color: #fff;
     border-radius: 10px;
 }
 
-/* -----------graphbox-------------------- */
-
-
-/* ---------------Progress bar */
-.progress-card {
-    background-color: #fff;
-    border-radius: 10px;
-    position: relative;
-    z-index: ;
-}
-
-.progress {}
-
-.progress-img {
-    width: 100px;
-}
-
-.progress-value {
-    position: absolute;
-    top: 16%;
-    left: 41%;
-}
-
-.progress-bg {
-    width: 53px;
-    position: absolute;
-    top: 13%;
-    left: 33%;
-    z-index: 1;
-}
-
-.progress-value p {
-    color: #374557;
-    font-size: 1.1rem;
-    font-weight: bolder;
-}
-
-.progress-status {
-    font-weight: bold;
-    font-size: .9rem;
-}
-
-.progress-lead {
-    font-size: .9rem;
-}
-
-.btn-font {
-    font-size: 1.1rem;
-}
-
-/* ---------------Progress bar *
-/* -----------progress box------------------- */
-
-/*-------------------------bar chart------------- */
-.barchart {
-    border-radius: 10px;
-}
-
-.barchart .score-text {
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-.barchart .text {
-    font-size: .75rem;
-    font-weight: bold;
-    color: #A098AE;
-}
-
-.barchart .dropdown {
-    background-color: #FAFAFA;
-    border-radius: 3px;
-}
-
-.barchart span .vector-img {
-    width: 9px;
-}
-
-/*-------------------------bar chart------------- */
-
-/* --------------middle column---------- */
-
-/* -----------------------Right-sidebar */
-
-.home-work-card {
-    border-radius: 5px;
-}
-
-.line {
-    height: 10px;
-    background-color: #FAFAFA;
-    border-radius: 3px;
-}
-
-.line-1 {
-    height: 9px;
-    width: 50%;
-    background-color: #9C4DF4;
-
-}
-
-.line-2 {
-    background-color: #191489;
-}
-
-.event-lead {
+.card-text {
     font-size: .7rem;
 }
 
-
-.add-img {
-    width: 100px;
+.pallet-img {
+    width: 40px;
 }
 
-/* designCards */
-.designCards {
-    background-color: #fff;
-    border-radius: 8px;
-    position: relative;
+.arrow-img {
+    font-size: 10px;
 }
 
-.layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 9px;
-    background-color: #374557;
-    border-radius: 5px 0 0 5px;
+.star-img {
+    font-size: 5px;
 }
 
-.layer1 {
-    background-color: #191489;
-}
-
-.layer2 {
-    background-color: #9C4DF4;
-}
-
-
-.designCards_header-text {
-    font-size: 1.2rem;
+small {
+    font-size: .8rem;
     font-weight: bold;
-    margin-bottom: 10px;
-    margin-top: 15px;
 }
 
-.designCards_img {
-    width: 20px;
+.clients-name {
+    font-size: .7rem;
 }
 
-.designCards_date {
-    font-size: .9rem;
-    margin-bottom: 15px;
+.clients-rating {
+    font-size: .7rem;
 }
 
-.schedule-btn {
-    text-decoration: none;
-    font-size: 1.2rem;
-
+.view {
+    font-size: .7rem;
 }
-
-.btn-box {
-    border: 1px solid #A098AE;
-    border-radius: 8px;
-
-}
-
-/* designCards */
 
 
 /* -------------------End-----main Content----------------------------- */
