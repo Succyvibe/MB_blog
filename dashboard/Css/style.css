@@ -288,7 +288,7 @@ h5 {
     background-color: #fff;
     border-radius: 10px;
     position: relative;
-    z-index: ;
+    z-index: 0;
 }
 
 .progress {}
@@ -473,7 +473,7 @@ h5 {
     }
 
     .text-gray {
-        display: none;
+        /* display: none; */
     }
 
 
@@ -482,7 +482,7 @@ h5 {
         background-color: #fff;
         border-radius: 10px;
         position: relative;
-        z-index: ;
+        z-index: 0;
     }
 
     .progress {}
@@ -508,7 +508,7 @@ h5 {
 
     .progress-status {
         font-weight: bold;
-        font-size: .rem;
+        font-size: .0rem;
     }
 
     .progress-lead {
@@ -527,9 +527,9 @@ h5 {
 }
 
 @media (max-width:768px) {
-    .sidebar {
+    /* .sidebar {
         display: none;
-    }
+    } */
 
     .progress-value {
 
@@ -538,11 +538,19 @@ h5 {
 
     }
 
-    .aside {
+    /* .aside {
         display: none;
+    } */
+
+    .navbar_collapse {
+        position: absolute;
+        height: 100vh;
+        width: 70%;
+        top: 0;
+        left: 0;
+        transition: 2s;
+        display: block !important;
     }
-
-
 
 
 }

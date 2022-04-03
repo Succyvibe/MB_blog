@@ -17,7 +17,7 @@
     <header class="header">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-2 bg-white">
+                <div class="col-lg-2 bg-white d-none d-md-block mt-5  mt-lg-0" id="navbarSidebar">
                     <!-- --------------sidebar----------------------------- -->
 
                     <!-- ----------logo------------- -->
@@ -25,7 +25,8 @@
                         <!-- <button type="button" onclick="openSideMenu()">
                             <span class="navbar-toggler-icon"></span>
                         </button> -->
-                        <a href=""><img class="logo mt-3" src="./img/Group 7649 (1).png" alt="" srcset=""></a>
+                        <a href="" class="d-none d-md-block"><img class="logo mt-3" src="./img/Group 7649 (1).png"
+                                alt="" srcset=""></a>
 
                         <!-- --------------offcanvas -->
 
@@ -51,10 +52,22 @@
                                     </a>
                                     <div class="collapse" id="collapseExample">
                                         <div class="card card-body">
-                                            Some placeholder content for the collapse component. This panel is
-                                            hidden by
-                                            default but
-                                            revealed when the user activates the relevant trigger.
+                                            <ul>
+                                                <li>
+                                                    <a class="nav-link" href="">
+                                                        <span class=""><img src="./img/Apps (1).svg" alt=""
+                                                                srcset=""></span>
+                                                        <span class="text-gray ">Courses</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="nav-link" href="">
+                                                        <span class=""><img src="./img/open-book.svg" alt=""
+                                                                srcset=""></span>
+                                                        <span class=" text-gray">Get PDFs</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
                                         </div>
 
                                 </li>
@@ -136,7 +149,21 @@
                     <div class="wrapper">
                         <nav class="navbar navbar-expand-lg  navbar-light">
                             <div class="container-fluid">
-                                <a class="nav-header-text  me-lg-5" href="#">Dashboard</a>
+                                <button class="navbar-toggler" type="button" onclick="showSidebar()" aria-controls="
+                                    navbarSidebar" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <a class="nav-header-text  me-lg-5" href="#">
+
+                                    <img class="logo mt-3 d-block d-md-none" src="./img/Group 7649 (1).png" alt=""
+                                        srcset="">
+
+                                    <span class="d-none d-md-block">Dashboard</span>
+
+                                </a>
+
+
+
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -575,13 +602,13 @@
     <script src="./js/main.js"></script>
     <script src="./js/popper.js"></script>
     <script>
-        function openSideMenu() {
-            document.getElementById('side-menu').style.width = '250px';
-
-        }
-        function closeSideMenu() {
-            document.getElementById('side-menu').style.width = '0px';
-
+        let toggle = false
+        function showSidebar() {
+            toggle = !toggle
+            if (toggle)
+                document.getElementById('navbarSidebar').classList.add('navbar_collapse');
+            else
+                document.getElementById('navbarSidebar').classList.remove('navbar_collapse');
         }
     </script>
 </body>
