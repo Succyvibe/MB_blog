@@ -219,134 +219,54 @@ h5 {
 }
 
 /* --------------middle column---------- */
-.header-text {
-    color: #374557;
-}
-
-.text-muted {
-    color: #374557;
-}
-
-.dropdown-menu {
-    border: none;
-    box-shadow: 0px 9px 40px rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
-}
-
-.dropdown-menu li .dropdown-item {
-    font-size: .9rem;
-    color: #191489;
-}
-
-
-.dropdown-menu li .dropdown-item:hover {
-    background: none;
-}
-
-
 
 .sett-img {
     width: 20px;
-
 }
 
-.lock-img {
-    border-radius: 50%;
+.small {
+    color: #191489;
 }
-
-.link-mute {
-    color: #374557;
-
-}
-
-.intro-text {
-    color: #1C168C;
-    font-weight: bold;
-}
-
-.drop {
-    color: #374557;
-}
-
-.bor-btm {
-    border-bottom: 1px solid #C8C8C8;
-    margin-top: 5px;
-
-}
-
-ul.bor-btm span::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 4px;
-    background-color: #1C168C;
-    transition: .5s ease;
-    margin: auto;
-
-}
-
-ul.bor-btm span:hover::after {
-    width: 100%;
-
-}
-
-.home-work-card {
-    border-radius: 10px;
-}
-
-
-
-.line {
-    height: 10px;
-    background-color: #FAFAFA;
-    border-radius: 3px;
-}
-
-.line-1 {
-    height: 9px;
-    width: 50%;
-    background-color: #9C4DF4;
-
-}
-
-.line-2 {
-    background-color: #191489;
-}
-
 
 .card1 {
-    background-color: #191489;
+    background-color: #fff;
     padding: 16px;
-    color: #fff;
 
     border-radius: 10px;
-    margin-bottom: 15px;
 }
 
-.card2 {
-    background-color: rgba(219, 219, 219, 0.514);
-    margin-bottom: 15px;
-    color: #374557;
+.card-text {
+    font-size: .7rem;
 }
 
-
-
-.card3 {
-    background-color: #fff;
-    color: #374557;
+.pallet-img {
+    width: 40px;
 }
 
-.card1 .check-img {
-    background-color: #fff;
-    color: #fff;
+.arrow-img {
+    font-size: 10px;
 }
 
-.progress-text {
-    color: #374557;
-    font-size: 1.3rem;
+.star-img {
+    font-size: 5px;
+}
+
+small {
+    font-size: .8rem;
     font-weight: bold;
 }
 
+.clients-name {
+    font-size: .7rem;
+}
+
+.clients-rating {
+    font-size: .7rem;
+}
+
+.view {
+    font-size: .7rem;
+}
 
 
 /* -------------------End-----main Content----------------------------- */
