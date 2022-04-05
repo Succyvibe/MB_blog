@@ -219,46 +219,134 @@ h5 {
 }
 
 /* --------------middle column---------- */
-
-.card1 {
-    background-color: #fff;
-    padding: 16px;
-
-    border-radius: 10px;
+.header-text {
+    color: #374557;
 }
 
-.card-text {
-    font-size: .7rem;
+.text-muted {
+    color: #374557;
 }
 
-.pallet-img {
-    width: 40px;
+.dropdown-menu {
+    border: none;
+    box-shadow: 0px 9px 40px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
 }
 
-.arrow-img {
-    font-size: 10px;
+.dropdown-menu li .dropdown-item {
+    font-size: .9rem;
+    color: #191489;
 }
 
-.star-img {
-    font-size: 5px;
+
+.dropdown-menu li .dropdown-item:hover {
+    background: none;
 }
 
-small {
-    font-size: .8rem;
+
+
+.sett-img {
+    width: 25px;
+    height: 25px;
+}
+
+.lock-img {
+    border-radius: 50%;
+}
+
+.link-mute {
+    color: #374557;
+
+}
+
+.intro-text {
+    color: #1C168C;
     font-weight: bold;
 }
 
-.clients-name {
-    font-size: .7rem;
+.drop {
+    color: #374557;
 }
 
-.clients-rating {
-    font-size: .7rem;
+.bor-btm {
+    border-bottom: 1px solid #C8C8C8;
+    margin-top: 5px;
+
 }
 
-.view {
-    font-size: .7rem;
+ul.bor-btm span::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: #1C168C;
+    transition: .5s ease;
+    margin: auto;
+
 }
+
+ul.bor-btm span:hover::after {
+    width: 100%;
+
+}
+
+.home-work-card {
+    border-radius: 10px;
+}
+
+
+
+.line {
+    height: 10px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+}
+
+.line-1 {
+    height: 9px;
+    width: 50%;
+    background-color: #9C4DF4;
+
+}
+
+.line-2 {
+    background-color: #191489;
+}
+
+
+.card1 {
+    background-color: #191489;
+    padding: 16px;
+    color: #fff;
+
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card2 {
+    background-color: rgba(219, 219, 219, 0.514);
+    margin-bottom: 15px;
+    color: #374557;
+}
+
+
+
+.card3 {
+    background-color: #fff;
+    color: #374557;
+}
+
+.card1 .check-img {
+    background-color: #fff;
+    color: #fff;
+}
+
+.progress-text {
+    color: #374557;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 
 
 /* -------------------End-----main Content----------------------------- */
