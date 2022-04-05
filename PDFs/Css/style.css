@@ -317,6 +317,7 @@ ul.bor-btm span:hover::after {
 .card1 {
     background-color: #191489;
     padding: 16px;
+    padding-bottom: 4px;
     color: #fff;
 
     border-radius: 10px;
@@ -334,6 +335,15 @@ ul.bor-btm span:hover::after {
 .card3 {
     background-color: #fff;
     color: #374557;
+}
+
+.card3 .progress-text3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card3 .arrow-icon {
+    width: 20px;
 }
 
 .card1 .check-img {
