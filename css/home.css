@@ -131,6 +131,7 @@ p {
 
 .input-box {
     border-radius: 8px;
+    background-color: #fff;
 }
 
 
@@ -593,9 +594,7 @@ footer small {
 
 
 @media (max-width:1400px) {
-    body {
-        background-color: rgb(8, 18, 22);
-    }
+
 
     .bg-img {}
 
@@ -611,9 +610,7 @@ footer small {
 
 
 @media (max-width:1200px) {
-    body {
-        background-color: rgb(94, 138, 103);
-    }
+
 
 
     .bg {
@@ -627,9 +624,7 @@ footer small {
 
 
 @media (max-width:992px) {
-    body {
-        background-color: skyblue;
-    }
+
 
     .bg {
         position: absolute;
@@ -645,10 +640,20 @@ footer small {
 }
 
 @media (max-width:768px) {
-    body {
-        background-color: blue;
+
+    .input-box {
+        background: none;
     }
 
+
+    .email-input {
+        border: none;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+
+
+    }
 
     .bg {
         position: absolute;
@@ -663,9 +668,7 @@ footer small {
 }
 
 @media screen and (max-width:576px) {
-    body {
-        background-color: gray;
-    }
+
 
 
     .bg-img {}
@@ -742,9 +745,6 @@ footer small {
 }
 
 @media (max-width:425px) {
-    body {
-        background-color: chartreuse;
-    }
 
 
     .bg {
@@ -761,9 +761,6 @@ footer small {
 
 
 @media (max-width:375px) {
-    body {
-        background-color: rgb(0, 255, 149);
-    }
 
     .bg-img {}
 
@@ -780,9 +777,6 @@ footer small {
 
 
 @media (max-width:320px) {
-    body {
-        background-color: rgb(0, 255, 170);
-    }
 
     .bg {
         position: absolute;
