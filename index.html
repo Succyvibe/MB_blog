@@ -5,531 +5,546 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PDFs</title>
-    <link rel="stylesheet" href="./Css/bootstrap.min.css">
-    <link rel="stylesheet" href="./Css/boxicons.min.css">
-    <link rel="stylesheet" href="./Css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/boxicons.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Home</title>
 </head>
 
 <body>
 
-    <header class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-2 bg-white">
-                    <!-- --------------sidebar----------------------------- -->
+    <!----------------------------------------------- Start Navbar------------------------------------- -->
 
-                    <!-- ----------logo------------- -->
-                    <div class="sidebar">
-                        <!-- <button type="button" onclick="openSideMenu()">
-                            <span class="navbar-toggler-icon"></span>
-                        </button> -->
-                        <a href=""><img class="logo mt-3" src="./img/Group 7649 (1).png" alt="" srcset=""></a>
-
-                        <!-- --------------offcanvas -->
-
-                        <!-- --------------offcanvas -->
-
-                        <!-- -------sidebar nav------------------------- -->
-                        <div class="sidebar_nav mt-5" id="side-menu">
-                            <!-- <a href="" class="btn-close" onclick="closeSideMenu()">&times;</a> -->
-                            <ul>
-                                <li>
-                                    <a class="nav-link  active" href="">
-                                        <span class=""><img src="./img/Apps (1).svg" alt="" srcset=""></span>
-                                        <span class="text-gray ">Dashboard</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="nav-link  sidebar-link" data-bs-toggle="collapse" href="#collapseExample"
-                                        role="button" aria-expanded="false" aria-controls="collapseExample">
-                                        <span class=""><img src="./img/Bookmarks Simple.svg" alt="" srcset=""></span>
-                                        <span class=" text-gray">Paths</span>
-                                        <span class="right-icon ms-4"><img class="vector-img" src="./img/Vector.png"
-                                                alt="" srcset=""></span>
-                                    </a>
-                                    <div class="collapse" id="collapseExample">
-                                        <div class="card card-body">
-                                            Some placeholder content for the collapse component. This panel is
-                                            hidden by
-                                            default but
-                                            revealed when the user activates the relevant trigger.
-                                        </div>
-
-                                </li>
-                                <li>
-                                    <a class="nav-link " href="">
-                                        <span class=""><img src="./img/open-book.svg" alt="" srcset=""></span>
-                                        <span class=" text-gray">Get PDFs</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="nav-link  " href="">
-                                        <span class=""><img src="./img/calendar.svg" alt="" srcset=""></span>
-                                        <span class=" text-gray">Schedule</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="nav-link  " href="">
-                                        <span class=""><img src="./img/users.svg" alt="" srcset=""></span>
-                                        <span class=" text-gray">Instructors</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="nav-link " href="">
-                                        <span class=""><img src="./img/account.svg" alt="" srcset=""></span>
-                                        <span class=" text-gray">Profile</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="nav-link " href="">
-                                        <span class=""><img src="./img/Activity.svg" alt="" srcset=""></span>
-                                        <span class=" text-gray">Activity</span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-                        <!-- -------------------------End-sidebar nav-------------------------------- -->
-                        <div class="sidebar_card">
-                            <div class="sidebar_card-body">
-                                <div class="d-flex mt-3 align-items-center">
-                                    <p class="card-text">Upgrade Your Account To Pro</p>
-                                    <img class="medal-img" src="./img/Medal.svg" alt="" srcset="">
-                                </div>
-                                <p class="lead-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Ad
-                                    quibusdam
-                                    necessitatibus quam,
-                                    repellendus quas et.</p>
-                                <a href="" class="btn card_btn">Upgrade</a>
-                            </div>
-                        </div>
-
-                        <ul>
-                            <li>
-                                <a class="nav-link " href="">
-                                    <span class=""><img src="./img/account.svg" alt="" srcset=""></span>
-                                    <span class=" text-gray">Profile</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav-link " href="">
-                                    <span class=""><img src="./img/Activity.svg" alt="" srcset=""></span>
-                                    <span class=" text-gray">Activity</span>
-                                </a>
-                            </li>
-                        </ul>
+    <nav class="navbar navbar-expand-xl mt-3">
+        <div class="container">
+            <a href="../index/"><img src="./images/Group 7649 (1).png" alt="" width="200" height=""
+                    class="d-inline-block align-text-top"></a>
+            <i class=" bx bx-menu navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu"></i>
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active"><a href="../blog/" class="active links nav-link">Articles</a></li>
+                    <li class="nav-item"><a href="#Jobs" class="nav-link">Jobs</a></li>
+                    <li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
+                    <li class="nav-item"><a href="projects" class="nav-link">Projects</a></li>
+                </ul>
 
 
+                <ul class="d-flex navbar-ul navbar-nav ms-auto">
+                    <li class="nav-item"><a href="../hub/" class="nav-link">Content Hub</a></li>
+                    <li class="nav-item"><a href="" class="nav-link nav-link-bg ">Join Our Community</a></li>
+                    <div class="d-grid gap-2 d-sm-block">
+                        <a href="/dashboard/" class="btn btn-warning ">Join Our Academy</a>
                     </div>
 
-
-                </div>
-                <!-- -------------End-sidebar----------------------------- -->
-
-
-                <!-- ------------------main---------------------------------------------------------------------- -->
-
-                <div class="col-lg-10 bg-white main-navbar">
-                    <div class="wrapper">
-                        <nav class="navbar navbar-expand-lg  navbar-light">
-                            <div class="container-fluid">
-                                <a class="nav-header-text  me-lg-5" href="#">MY PDF</a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                    aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <!-- --------------nav search bar------------- -->
-                                    <form class="d-flex ms-lg-5 form-box mt-3 mt-lg-0">
-                                        <div class="input-group my-1 my-lg-0">
-                                            <button class="btn " type="button" id="button-addon1"><img
-                                                    class="search-img" src="./img/search-icon.png" alt=""
-                                                    srcset=""></button>
-                                            <input type="text" class="form-control" placeholder="search here"
-                                                aria-label="Example text with button addon"
-                                                aria-describedby="button-addon1">
-                                        </div>
-
-
-                                    </form>
-                                    <!-- ---------------End nav search bar---------------------- -->
-
-                                    <!-- -------------------language------------------------- -->
-                                    <ul class="navbar-nav  ms-lg-5 mb-2 mb-lg-0">
-
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <span> <img class="us-img" src="./img/United.svg" alt=""
-                                                        srcset=""></span>
-                                                <span class="font-size ms-2">Eng(US)</span>
-                                            </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </li>
-
-                                    </ul>
-
-                                    <!-- -------------------language------------------------- -->
-
-                                    <!-- -----------------------Notification-------------------------- -->
-                                    <ul class="navbar-nav  ms-lg-5 mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="#"><img class="inbox-img"
-                                                    src="./img/inbox-icon.png" alt="" srcset=""></a>
-                                        </li>
-                                        <li class="nav-item ms-lg-3">
-                                            <a class="nav-link" href="#"><img class="inbox-img" src="./img/msg-icon.png"
-                                                    alt="" srcset=""></a>
-                                        </li>
-                                    </ul>
-                                    <!-- -----------------------Notification-------------------------- -->
-
-                                    <!-- --------------------------profile---------------------------------------- -->
-                                    <ul class="navbar-nav ms-lg-5 mb- mb-lg-0">
-
-                                        <li class="nav-item dropdown ms-lg-5">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <span class="font-size"> Success Ibekwe</span>
-                                                <span><img class="user-img" src="./img/user-img.svg" alt=""
-                                                        srcset=""></span>
-
-                                            </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </li>
-
-                                    </ul>
-
-                                    <!-- --------------------------profile---------------------------------------- -->
-
-
-
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-
-                    <!-- --------------------------------main content------------------------------------------------------------------- -->
-                    <main class="main col-lg-10">
-                        <div class="wrapper  mb-4 pb-3 ">
-                            <div class="row">
-
-
-                                <!-- -------------card2------------------ -->
-                                <div class="d-flex d-md-flex justify-content-between align-items-center mt-5">
-                                    <p class="fs-6 fw-bold">
-                                        <span>Saved PDF</span>
-                                        <span>Deleted</span>
-                                    </p>
-
-                                    <div>
-                                        <div class="d-flex d-md-flex">
-
-
-                                            <ul>
-                                                <li>
-                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                                                        class="drop">
-                                                        <span class="font-size text-muted">Manage
-                                                            PDFs</span>
-
-
-                                                    </a>
-                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                        <li><a class="dropdown-item dropdown-item1" href="#">Buy
-                                                                PDFS</a>
-                                                        </li>
-                                                        <li><a class="dropdown-item dropdown-item2" href="#">Save
-                                                                to
-                                                                read</a>
-                                                        </li>
-
-                                                        <li><a class="dropdown-item dropdown-item3" href="#">delete
-                                                                pdf</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                            <div>
-                                                <img class="sett-img me-4" src="./img/calendar lit.png">
-                                                <img class="sett-img me-4" src="./img/Bookmarks Simple.png">
-                                                <img class="sett-img me-4" src="./img/share.svg">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 mb-5">
-                                    <div class=" card1">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img class="img-fluid" src="./img/UX img.png" alt="">
-                                            </div>
-                                            <div class="d-flex d-md-flex justify-content-between mt-3">
-                                                <small>FullStack Developer</small>
-                                                <small class="small">PDF</small>
-                                            </div>
-                                            <p>
-                                                <span class="clients-name">Kapaski Guru</span>
-                                                <span class="clients-rating">5.0</span>
-                                                <span><img class="star-img" src="./img/Star 1.png" alt=""></span>
-                                            </p>
-                                            <div class="d-flex d-md-flex justify-content-between">
-                                                <p>
-                                                    <span><img class="star-img" src="./img/openbook-icon.png"
-                                                            alt=""></span>
-                                                    <span class="clients-name">110+ content</span>
-                                                </p>
-                                                <p class="view">View Details</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-4 mb-5">
-                                    <div class=" card1">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img class="img-fluid" src="./img/UX img.png" alt="">
-                                            </div>
-                                            <div class="d-flex d-md-flex justify-content-between mt-3">
-                                                <small>UI Design Beginner</small>
-                                                <small class="small">PDF</small>
-                                            </div>
-                                            <p>
-                                                <span class="clients-name">Kapaski Guru</span>
-                                                <span class="clients-rating">5.0</span>
-                                                <span><img class="star-img" src="./img/Star 1.png" alt=""></span>
-                                            </p>
-                                            <div class="d-flex d-md-flex justify-content-between">
-                                                <p>
-                                                    <span><img class="star-img" src="./img/openbook-icon.png"
-                                                            alt=""></span>
-                                                    <span class="clients-name">110+ content</span>
-                                                </p>
-                                                <p class="view">View Details</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-4 mb-5">
-                                    <div class=" card1">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img class="img-fluid" src="./img/UX img.png" alt="">
-                                            </div>
-                                            <div class="d-flex d-md-flex justify-content-between mt-3">
-                                                <small>How to be aFreelancer</small>
-                                                <small class="small">PDF</small>
-                                            </div>
-                                            <p>
-                                                <span class="clients-name">Kapaski Guru</span>
-                                                <span class="clients-rating">5.0</span>
-                                                <span><img class="star-img" src="./img/Star 1.png" alt=""></span>
-                                            </p>
-                                            <div class="d-flex d-md-flex justify-content-between">
-                                                <p>
-                                                    <span><img class="star-img" src="./img/openbook-icon.png"
-                                                            alt=""></span>
-                                                    <span class="clients-name">110+ content</span>
-                                                </p>
-                                                <p class="view">View Details</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!-- -------------card2------------------ -->
-
-
-                                <!-- ------------card3-------------------------- -->
-
-
-                                <div class="col-lg-4 mb-5">
-                                    <div class=" card1">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img class="img-fluid" src="./img/UX img.png" alt="">
-                                            </div>
-                                            <div class="d-flex d-md-flex justify-content-between mt-3">
-                                                <small>UX Research</small>
-                                                <small class="small">PDF</small>
-                                            </div>
-                                            <p>
-                                                <span class="clients-name">Kapaski Guru</span>
-                                                <span class="clients-rating">5.0</span>
-                                                <span><img class="star-img" src="./img/Star 1.png" alt=""></span>
-                                            </p>
-                                            <div class="d-flex d-md-flex justify-content-between">
-                                                <p>
-                                                    <span><img class="star-img" src="./img/openbook-icon.png"
-                                                            alt=""></span>
-                                                    <span class="clients-name">110+ content</span>
-                                                </p>
-                                                <p class="view">View Details</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-4 mb-5">
-                                    <div class=" card1">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img class="img-fluid" src="./img/UX img.png" alt="">
-                                            </div>
-                                            <div class="d-flex d-md-flex justify-content-between mt-3">
-                                                <small>Basic web design </small>
-                                                <small class="small">PDF</small>
-                                            </div>
-                                            <p>
-                                                <span class="clients-name">Kapaski Guru</span>
-                                                <span class="clients-rating">5.0</span>
-                                                <span><img class="star-img" src="./img/Star 1.png" alt=""></span>
-                                            </p>
-                                            <div class="d-flex d-md-flex justify-content-between">
-                                                <p>
-                                                    <span><img class="star-img" src="./img/openbook-icon.png"
-                                                            alt=""></span>
-                                                    <span class="clients-name">110+ content</span>
-                                                </p>
-                                                <p class="view">View Details</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-4 mb-5">
-                                    <div class=" card1">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <img class="img-fluid" src="./img/UX img.png" alt="">
-                                            </div>
-                                            <div class="d-flex d-md-flex justify-content-between mt-3">
-                                                <small>3D character design</small>
-                                                <small class="small">PDF</small>
-                                            </div>
-                                            <p>
-                                                <span class="clients-name">Kapaski Guru</span>
-                                                <span class="clients-rating">5.0</span>
-                                                <span><img class="star-img" src="./img/Star 1.png" alt=""></span>
-                                            </p>
-                                            <div class="d-flex d-md-flex justify-content-between">
-                                                <p>
-                                                    <span><img class="star-img" src="./img/openbook-icon.png"
-                                                            alt=""></span>
-                                                    <span class="clients-name">110+ content</span>
-                                                </p>
-                                                <p class="view">View Details</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <!-- ------------card3-------------------------- -->
-
-                                <div class="d-flex d-md-flex justify-content-between">
-                                    <p>
-                                        <span>Showing</span>
-                                        <span>1-6 </span>
-                                        <span> from</span>
-                                        <span>100</span>
-                                        <span>data</span>
-
-                                    </p>
-                                    <p>
-                                        <span><img src="./img/arrow.png" alt=""></span>
-                                        <span>1</span>
-                                        <span>2</span>
-                                        <span>3</span>
-                                        <span><img src="./img/arrow.png" alt=""></span>
-                                    </p>
-                                </div>
-
-                            </div>
-
-
-                        </div>
-
-                    </main>
-
-                    <!-- --------------------------------main content------------------------------------------------------------------- -->
-
-                </div>
+                </ul>
 
             </div>
         </div>
+    </nav>
+    <!-----------------------------------------------End Navbar------------------------------------- -->
 
-    </header>
+
+    <!-- -------------------------------------------- Start Main Section----------------------------------------------- -->
+    <main class="main">
+
+        <!-- ------------------------------------------Hero Section----------------------------------------------------------- -->
+        <section class="hero">
+            <div class="container">
+                <div class="row hero__grid">
+                    <div class=" col-lg-6">
+                        <div class="row">
+                            <div
+                                class=" bg-white  col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-sm-6 col text-center rounded mb-3 mt-5">
+                                <h6 class="mt-2 text-danger py-">Never stop learning</h6>
+                            </div>
+                        </div>
+
+
+                        <h1 class="title__text mb-md-2">Start Learning Backend Development Now</h1>
+                        <p class="title__subtext">“I thought the blog was good. But the
+                            newsletter? Even better!”</p>
+                        <p class="fw-bold user-name">Katy Grey </p>
+                        <p class="job-title fs-6 fw-bold">Product Engineer, SPDC</p>
+
+                        <!-- ---------------input--------------------------------------------- -->
+                        <div class="col-md-8">
+                            <div class="row input-box mt-4 mb-5">
+
+                                <input class="col-md-8 py-md-2 email-input" type="email" placeholder="Enter your Email">
+
+                                <button type="button" class="col-md-4 start-btn my-md-1  py-2 mt-3 mt-lg-0 ">Start
+                                    Now</button>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class=" col-lg-6 hero__image">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid" src="./images/hero-img.png" alt="" srcset="">
+                            </div>
+                            <div class="col-12 position-img">
+                                <img class="img1" src="./images/2.png" alt="" srcset="">
+                                <img class="img2" src="./images/3.png" alt="" srcset="">
+                                <img class="img3" src="./images/1.png" alt="" srcset="">
+
+                            </div>
+                            <div class="display-img">
+                                <img class="img4" src="./images/imggg.png" alt="" srcset="">
+                                <img class="img5" src="./images/1.png" alt="" srcset="">
+                            </div>
+                            <!-- <div class="col-12">
+                                <img class="img-fliud bg" src="./images/BG.png" alt="" srcset="">
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------------------------------------End Hero Section------------------------------------------------------------- -->
+    </main>
+    <!-- --------------------------------------------------End main Section-------------------------------------------------------------- -->
 
 
 
+    <!-- ------------------------------------------------Sponsors Section-------------------------------------------- -->
+    <section class="p-3 my-5 sponsors text-center">
+        <h3 class="sponsor-header-text mb-5">Our sponsors</h3>
+        <div class="container">
+            <div class="row my-3 gap-4">
+                <div class="col-md mb-3-lg">
+                    <img src="./images/slack.png" alt="">
+                </div>
+                <div class="col-md mb-3-lg">
+                    <img src="./images/netflix.png" alt="">
+                </div>
+                <div class="col-md mb-3-lg">
+                    <img src="./images/fitbit.png" alt="">
+                </div>
+                <div class="col-md mb-3-lg">
+                    <img src="./images/google.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- ---------------------------------------------------------End of SPonsors Section------------------------------------------- -->
+    <section class="Dev-art my-5" id="Articles">
+        <div class="container pt-5">
+            <h2 class="Dev-art__header-text mt-5">Latest Backend Dev.<br> Artilcles for you</h2>
+            <p class="Dev-art__para-text mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
+                placerat
+                <br>
+                est
+                nulla enim nibh tellus mattis
+                sit risus.
+            </p>
+
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card py-4 px-3">
+
+                        <div class="mb-5">
+                            <a href="../blog/" class=" btn btn-primary mb-3 mt-3">Backend Content Hubs</a>
+                            <h3 class="card-head-text mt-3"><a class="link" href="../blog_detail/">Pursuing a Full-Time
+                                    Career as a
+                                    Backend Developer</a></h3>
+                            <div class="mb-4">
+                                <small>By Solomon Eseme. Updated Oct. 12, 2021</small>
+                            </div>
+                            <p class="card-text text-justify" style="text-align: justify;">This article will aim to
+                                equip you with the knowledge you
+                                need to
+                                make
+                                that
+                                all-important
+                                decision to become a backend developer. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Quis placerat est nulla enim nibh tellus mattis sit risus. This article will
+                                aim
+                                to
+                                equip you with the knowledge you need to make</p>
+                        </div>
+                        <div>
+                            <h3 class="card-head-text"><a class="link" href="../blog_detail/">Pursuing a Full-Time
+                                    Career as a
+                                    Backend Developer</a></h3>
+                            <div class="mb-4">
+                                <small>By Solomon Eseme. Updated Oct. 12, 2021</small>
+                            </div>
+                            <p class="card-text" style="text-align: justify;">This article will aim to equip you with
+                                the knowledge you need to
+                                make
+                                that
+                                all-important
+                                decision to become a backend developer. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Quis placerat est nulla enim nibh tellus mattis sit risus. This article will
+                                aim
+                                to
+                                equip you with the knowledge you need to make</p>
+                        </div>
+                        <a href="../blog/" class="btn btn-sm ms-auto btn-col ">Read more </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card py-4 px-3">
+
+                        <div class="mb-5">
+                            <a href="../blog/" class=" btn btn-primary-1 mb-3 mt-3">Backend Content Hubs</a>
+                            <h3 class="card-head-text mt-3"><a class="link" href="../blog_detail/">Pursuing a Full-Time
+                                    Career as a
+                                    Backend Developer</a></h3>
+                            <div class="mb-4">
+                                <small>By Solomon Eseme. Updated Oct. 12, 2021</small>
+                            </div>
+                            <p class="card-text" style="text-align: justify;">This article will aim to equip you with
+                                the knowledge you need to
+                                make
+                                that
+                                all-important
+                                decision to become a backend developer. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Quis placerat est nulla enim nibh tellus mattis sit risus. This article will
+                                aim
+                                to
+                                equip you with the knowledge you need to make</p>
+                        </div>
+                        <div>
+                            <h3 class="card-head-text"><a class="link" href="../blog_detail/">Pursuing a Full-Time
+                                    Career as a
+                                    Backend Developer</a></h3>
+                            <div class="mb-4">
+                                <small>By Solomon Eseme. Updated Oct. 12, 2021</small>
+                            </div>
+                            <p class="card-text" style="text-align: justify;">This article will aim to equip you with
+                                the knowledge you need to
+                                make
+                                that
+                                all-important
+                                decision to become a backend developer. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Quis placerat est nulla enim nibh tellus mattis sit risus. This article will
+                                aim
+                                to
+                                equip you with the knowledge you need to make</p>
+                        </div>
+                        <a href="../blog/" class="btn btn-sm ms-auto btn-col-1 ">Read more </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card py-4 px-3 shadow">
+
+                        <div class="mb-5">
+                            <a href="../blog/" class=" btn btn-primary-2 mb-3 mt-3">Backend Content Hubs</a>
+                            <h3 class="card-head-text mt-3"><a class="link" href="../blog_detail/">Pursuing a Full-Time
+                                    Career as a
+                                    Backend Developer</a></h3>
+                            <div class="mb-4">
+                                <small>By Solomon Eseme. Updated Oct. 12, 2021</small>
+                            </div>
+                            <p class="card-text" style="text-align: justify;">This article will aim to equip you with
+                                the knowledge you need to
+                                make
+                                that
+                                all-important
+                                decision to become a backend developer. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Quis placerat est nulla enim nibh tellus mattis sit risus. This article will
+                                aim
+                                to
+                                equip you with the knowledge you need to make</p>
+                        </div>
+                        <div>
+                            <h3 class="card-head-text"><a class="link" href="../blog_detail/">Pursuing a Full-Time
+                                    Career as a
+                                    Backend Developer</a></h3>
+                            <div class="mb-4">
+                                <small>By Solomon Eseme. Updated Oct. 12, 2021</small>
+                            </div>
+                            <p class="card-text" style="text-align: justify;">This article will aim to equip you with
+                                the knowledge you need to
+                                make
+                                that
+                                all-important
+                                decision to become a backend developer. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Quis placerat est nulla enim nibh tellus mattis sit risus. This article will
+                                aim
+                                to
+                                equip you with the knowledge you need to make</p>
+                        </div>
+                        <a href="../blog/" class="btn btn-sm ms-auto btn-col-2 ">Read more </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card py-4 px-3 shadow">
+
+                        <div class="mb-5">
+                            <a href="../blog/" class=" btn btn-primary-3 mb-3 mt-3">Backend Content Hubs</a>
+                            <h3 class="card-head-text mt-3"><a class="link" href="../blog_detail/">Pursuing a Full-Time
+                                    Career as a
+                                    Backend Developer</a></h3>
+                            <div class="mb-4">
+                                <small>By Solomon Eseme. Updated Oct. 12, 2021</small>
+                            </div>
+                            <p class="card-text" style="text-align: justify;">This article will aim to equip you
+                                with
+                                the knowledge you need to
+                                make
+                                that
+                                all-important
+                                decision to become a backend developer. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Quis placerat est nulla enim nibh tellus mattis sit risus. This article will
+                                aim
+                                to
+                                equip you with the knowledge you need to make</p>
+                        </div>
+                        <div>
+                            <h3 class="card-head-text"><a class="link" href="../blog_detail/">Pursuing a Full-Time
+                                    Career as a
+                                    Backend Developer</a></h3>
+                            <div class="mb-4">
+                                <small>By Solomon Eseme. Updated Oct. 12, 2021</small>
+                            </div>
+                            <p class="card-text" style="text-align: justify;">This article will aim to equip you with
+                                the knowledge you need to
+                                make
+                                that
+                                all-important
+                                decision to become a backend developer. Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Quis placerat est nulla enim nibh tellus mattis sit risus. This article will
+                                aim
+                                to
+                                equip you with the knowledge you need to make</p>
+                        </div>
+                        <a href="../blog/" class="btn btn-sm ms-auto btn-col-3 ">Read more </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-------------------Article Section------------------------->
+
+    <section class="Article mb-5 text-center p-3">
+        <h2 class="article-intro-text py-5">See more articles</h2>
+        <div class="container  position-relative d-sm-none">
+            <img class="ellipse" src="./images/Ellipse 170.png" alt="">
+
+            <div class="row mt-5 pt-5 ps-2 align-items-center art-bg justify-content-between  article-row">
+                <!-- <div class="d-sm-flex mt-5 pt-5 ps-5 justify-content-between align-items-center article-row"> -->
+                <div class="col-md-6 text-start">
+                    <div class="ps-md-5">
+                        <a href="" class="btn btn-purp mb-3">Learn here</a>
+                        <h2 class="card-head-text fw-bold">Don’t waste time in
+                            roaming around, start learning Backed dev now</h2>
+                        <p class="art-card-text lh-sm fs-6">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing elit. Tortor quisque
+                            magna facilisis dictumst.
+                            Dictumst nulla augue posuere sed egestas nunc diam aliquam. Dolor porttitor donec sed diam
+                            eleifend.
+                        </p>
+                        <a href="" class="btn btn-lg-primary mb-4 px-4 button">Register Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 right-col">
+                    <div class="d-sm-flex patt-box">
+                        <img class="pattern" src="./images/Pattern.png" alt="">
+                        <img src="./images/Image.png" class="img-fluid img-flu" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="update p-3">
+        <div class="container bg-update position-relative">
+            <img src="./images/img1 (1).png" alt="">
+            <img src="./images/img1 (2).png" alt="">
+            <img src="./images/img1 (3).png" alt="">
+            <img src="./images/img1 (4).png " alt="">
+            <img src="./images/img1 (5).png " alt="">
+            <img src="./images/img1 (6).png" alt="">
+            <div class="row">
+                <div class="col-lg-6 mx-auto p-5 text-center ">
+                    <div class="cent">
+                        <h4 class="update-head-text text-white">Subscribe To Get Update
+                            From Us</h4>
+                        <p class="update-text">20k+ students daily learn with Masteringbackend. Subscribe for new
+                            courses.</p>
+                        <div class=" input-group mt-3">
+                            <input type="email" class="form-control text-white" placeholder="Enter your Email">
+                            <button class="btn btn-outline-secondary" type="button">Start Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="dev-job text-center mt-5" id="jobs">
+        <div class="col-lg-6 mx-auto p-5 text-center">
+            <h3 class="dev-header-text">Latest Backend Dev Job</h3>
+            <p class="dev-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci auctor et, ac lobortis
+                viverra scelerisque
+                amet
+                faucibus libero. Ac cras adipiscing nunc, id ullamcorper cursus nibh netus. Leo.</p>
+        </div>
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="card px-3 py-2">
+                        <div class="card-img align-self-center mb-3 mt-3">
+                            <img class="img-fluid " src="./images/num5.png" alt="">
+                        </div>
+                        <h6 class="card-header-text">Standard Five</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci auctor
+                            et, ac
+
+                        </p>
+                        <div>
+                            <a href="../blog/" class="btn btn-outline-primary mb-3 ">Read more</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="card px-3 py-2">
+                        <div class="card-img card-col align-self-center mb-3 mt-3"><img class="img-fluid "
+                                src="./images/num6.png" alt="">
+                        </div>
+                        <h6 class="card-header-text">Standard Five</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci auctor
+                            et, ac
+
+                        </p>
+                        <div>
+                            <a href="../blog/" class="btn btn-outline-primary mb-3">Read more</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="card px-3 py-2">
+                        <div class="card-img card-col-yell align-self-center mb-3 mt-3"><img class="img-fluid "
+                                src="./images/num7.png" alt="">
+                        </div>
+                        <h6 class="card-header-text">Standard Five</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci auctor
+                            et, ac
+
+                        </p>
+                        <div>
+                            <a href="../blog/" class="btn btn-outline-primary mb-3">Read more</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="card px-3 py-2">
+                        <div class="card-img card-col-last align-self-center mb-3 mt-3"><img class="img-fluid "
+                                src="./images/num8.png" alt="">
+                        </div>
+                        <h6 class="card-header-text">Standard Five</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci auctor
+                            et, ac
+
+                        </p>
+                        <div>
+                            <a href="../blog/" class="btn btn-outline-primary mb-3">Read more</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        </div>
+
+    </section>
+
+    <footer class="mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 ">
+                    <div>
+                        <img src="./images/Group 7700.png" alt="" width="200" height=""
+                            class="d-inline-block align-text-top">
+                        <p class="fs-6 mt-2">+234 678-690-1542</p>
+                        <a href="" class="text-white text-decoration-none email fs-6">support@masteringbackend.com</a>
+
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-col">
+                    <p class="mb-4">Menu</p>
+                    <div class="d-md-flex">
+                        <ul class="footer-nav">
+                            <li class="mb-3"><a href=""></a>Home</li>
+                            <li><a href="/blog/"></a>Articles</li>
+                        </ul>
+                        <ul class="footer-nav">
+                            <li class="mb-3"><a href=""></a>Jobs</li>
+                            <li><a href=""></a>Projects</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-4 text-col">
+                    <p class="mb-4 ">Learn</p>
+                    <ul>
+                        <li class="mb-3"><a href=""></a>Join the Academy</li>
+                        <li><a href=""></a>Join our Community</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+
+            <div class="d-md-flex align-items-center justify-content-between">
+                <div class="d-flex socia-links mb-3 align-items-center">
+                    <div class="socia-link p-2"><img class="img-fluid face" src="./images/facebook.png" alt="">
+                    </div>
+                    <div class="socia-link p-2"><img class="img-fluid" src="./images/twitter.png" alt=""></div>
+                    <div class="socia-link p-2"><img class="img-fluid" src="./images/instagram.png" alt=""></div>
+                </div>
+                <div><small class="text-light fs-7">© 2022 Masteringbacked. All right reserved.</small></div>
+
+            </div>
+    </footer>
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/popper.js"></script>
-    <script>
-        function openSideMenu() {
-            document.getElementById('side-menu').style.width = '250px';
 
-        }
-        function closeSideMenu() {
-            document.getElementById('side-menu').style.width = '0px';
-
-        }
-    </script>
 </body>
 
 </html>
-
-
-<!--       <div class="row mt-4 ">
-                        <div class="col-lg-8">
-                            <img src="./img/chart11.png" alt="">
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="progress-card text-center ms-lg-3">
-
-                                <div class="pt-3">
-                                    <img src="./img/circle.svg" class="progress-img" alt="" srcset="">
-                                </div>
-                                <div class="progress-value">
-                                    <p class="c">75%</p>
-                                </div>
-                                <div>
-                                    <img src="./img/progress-bg.png" class="progress-bg" alt="">
-                                </div>
-                                <h5 class="progress-status mt-3">My Progress</h5>
-                                <p class="progress-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                    do.</p>
-                                <div>
-                                    <a href="" class="btn btn-upgrade mb-4 btn-font">More details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
